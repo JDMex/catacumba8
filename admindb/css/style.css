@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+
+body, html {
+	width:100%;
+	height:100%;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#wrapper_1 {
+    width:750px;
+    min-height:800px;
+	margin:auto;
+	display:block;
+	border: black 1px solid;
+	padding: 10px;
+}
+
+.row_logo {
+	width: 100%;
+	height:auto;
+	border-bottom: #666 1px solid;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+
+.row_menu {
+	width: 98.7%;
+	height: 20px;
+	border-bottom: #666 1px solid;
+	padding:5px;
+	margin:5px;
+        text-align: center;
+}
+
+.row_one {
+	width: 100%;
+	display: block;
+	margin-bottom:10px;
+}
+
+.column_left {
+    width: 50%;
+    height: 30px;
+    display: block;
+    float: left;
+}
+
+.column_right {
+    width: 50%;
+    height: 30px;
+    display: block;
+    float: left;
+}
+
+.clearfloat {
+    clear: both;
+    height: 0px;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+img#logo-cata8 {
+	width:200px;
+	height: auto;
+	display:block;
+	margin:auto;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+    display: block;
+}
+
+h4  {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    display: block;
+}
+
+label {
+    font-weight: bold;
+}
+
+.column_left input,.column_right input {
+    width: 95%;
+    height: 20px;
+    display: block;
+}
+
+.column_left p, .column_right p {
+    margin-bottom: 10px;
+}
+
+.column_left fieldset, .column_right fieldset {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+}
+
+.column_left legend, .column_right legend {
+    font-weight: bold;
+}
+
+.prt1 {
+    height: 190px;
+}
+
+select.slt_3 {
+    width: 10%;
+    height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+select.slt_2 {
+    width: 78%;
+    height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+select.slt_1 {
+    width: 20%;
+    height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+input.slt_1 {
+    width: 14%;
+    height: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+
+
+#ddd_ol {
+    width: 100%;
+    display: block;
+    list-style-type: decimal;    
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ddd_li {
+    width: 100%;
+    height: 20px;
+    display: block;
+    
+    margin-bottom:10px;
+    list-style-type: decimal;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+.sumbit_butt {
+    width: 94px;
+    height: 42px;
+    display: block;
+    margin: auto;
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87), color-stop(1, #6c7c7c));
+	background:-moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:-ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87', endColorstr='#6c7c7c',GradientType=0);
+	background-color:#768d87;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	border:1px solid #566963;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.sumbit_butt:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c), color-stop(1, #768d87));
+	background:-moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:-ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c', endColorstr='#768d87',GradientType=0);
+	background-color:#6c7c7c;
+}
+.sumbit_butt:active {
+	position:relative;
+	top:1px;
+}
+.sub_box {
+    border-top: #666 1px solid;
+    padding-top: 5px;
+    margin-top: 5px;
+}
